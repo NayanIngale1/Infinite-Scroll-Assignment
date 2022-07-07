@@ -1,0 +1,117 @@
+.search__wrapper{
+    width:450px;
+    margin:2rem auto 0.5rem;
+    background-color:#fff;
+    padding:15px 30px;
+    display:flex;
+    font-size:16px;
+    align-items:center;
+    gap:15px;    
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.search__input{
+    width:100%;
+    border:none;
+    font-family:inherit;
+    font-size:16px;
+    outline:none;
+}
+
+.user__card__wrapper{
+    width:100%;
+    /* border:1px solid red; */
+    padding:10px 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#fff;
+    margin-top:10px;    
+    cursor:pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.user__details{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.user__avatar{
+    height:50px;
+    width:50px;
+}
+.user__img{
+    width:100%;
+    border-radius:50%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.user__name{
+    font-size:16px;
+    font-weight:600;
+}
+.user__status{
+    font-size:15px;
+    display:flex;
+    align-items:center;
+    gap:10px;    
+}
+.gray__circle{
+    width:10px;
+    height:10px;
+    background-color:#d3d3d3;
+    border-radius:50%;
+
+}
+.green__circle{
+    width:10px;
+    height:10px;
+    background-color:#00c800;
+    border-radius:50%;
+}
+    
+.user__details__card{
+    padding:5px;
+    width:350px;
+}
+
+.user__details__top{
+    display:flex;
+    gap:20px;
+    align-items:center;
+    padding-bottom:20px;
+    border-bottom:1px solid gray;
+}
+.user__details__avatar{
+    width:100px;
+    height:100px;
+}
+.user__details__img{
+    width:100%;
+     border-radius:50%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.user__details__name{
+    gap:15px;
+    display:flex;
+    flex-direction:column;
+}
+
+.user__details__name .user__name{
+    font-size:20px;
+}
+
+.user__details__info__group{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);    
+}
+.user__details__info{
+    padding:10px 20px;
+}
+.user__details__info__title{
+    font-size:14px;    
+}
+.user__details__info__content{
+    font-size:16px;
+    font-weight:700px;
+}
